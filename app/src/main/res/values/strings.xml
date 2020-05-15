@@ -2,4 +2,5 @@
     <string name="app_name">Просмотр фото</string>
     <string name="button_back">Назад</string>
     <string name="button_next">Вперед</string>
+    <string name="result_done">http://myfile.org/%1$d</string>
 </resources>

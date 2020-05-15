@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button_back"
+        android:id="@+id/buttonBack"
         android:layout_width="150dp"
         android:layout_height="59dp"
         android:layout_marginStart="40dp"
@@ -16,20 +16,20 @@
         android:background="@color/colorButton"
         android:text="@string/button_back"
         app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toStartOf="@+id/button_next"
+        app:layout_constraintEnd_toStartOf="@+id/buttonNext"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/button_next"
+        android:id="@+id/buttonNext"
         android:layout_width="0dp"
         android:layout_height="59dp"
         android:layout_marginEnd="40dp"
         android:background="@color/colorButton"
         android:text="@string/button_next"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button_back"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonBack"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button_back" />
+        app:layout_constraintStart_toEndOf="@+id/buttonBack" />
 
     <TextView
         android:id="@+id/textView"
@@ -41,7 +41,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_back" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonBack" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -52,7 +52,7 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="73dp"
         android:background="@color/blues"
-        app:layout_constraintBottom_toTopOf="@+id/button_back"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBack"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
